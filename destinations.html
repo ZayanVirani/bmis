@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WanderLite • Destinations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container inner">
+    <a class="brand" href="index.html">
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <div class="brand-title">WanderLite</div>
+        <div class="brand-sub">Destinations</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="destinations.html">Destinations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="min-height: 54vh;">
+    <div class="hero-media" style="background-image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80');"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container content" style="grid-template-columns: 1.2fr 0.8fr;">
+      <div>
+        <div class="kicker"><span class="kdot"></span> Choose a category</div>
+        <h1>Destinations that don’t miss.</h1>
+        <div class="hero-sub">
+          Pick your vibe and get the essentials: best time to go, what to do, and what to eat.
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="contact.html">Ask for a plan</a>
+          <a class="btn ghost" href="index.html">Back Home</a>
+        </div>
+      </div>
+
+      <aside class="glass">
+        <div class="top">
+          <span class="pill gold">Quick tips</span>
+          <span class="pill">Pack light</span>
+        </div>
+        <div class="body">
+          <p class="muted">Choose one main highlight per day and keep space for spontaneous moments.</p>
+          <div class="divider"></div>
+          <div class="kpi">
+            <div class="box"><div class="big">Sunrise</div><div class="small">best photos</div></div>
+            <div class="box"><div class="big">Local food</div><div class="small">always worth it</div></div>
+            <div class="box"><div class="big">Slow pace</div><div class="small">better vibe</div></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Explore</h2>
+        <div class="hint">Pick a lane and enjoy</div>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <img class="img" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1400&q=80" alt="Forest trail">
+          <div class="body">
+            <h3>Forest Escape</h3>
+            <p>Hikes, lake views, and cabin nights. Quiet energy.</p>
+            <div class="tags">
+              <span class="tag gold">Nature</span><span class="tag">Cabin</span><span class="tag">Lakes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="img" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80" alt="Desert dunes">
+          <div class="body">
+            <h3>Desert Weekend</h3>
+            <p>Warm days, cold nights, and unreal skies.</p>
+            <div class="tags">
+              <span class="tag gold">Stars</span><span class="tag">Roadtrip</span><span class="tag">Sun</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="img" src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60b?auto=format&fit=crop&w=1400&q=80" alt="Old town street">
+          <div class="body">
+            <h3>Old Town Walks</h3>
+            <p>Markets, espresso, and streets that feel timeless.</p>
+            <div class="tags">
+              <span class="tag gold">Culture</span><span class="tag">Food</span><span class="tag">Photos</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container split">
+      <div class="panel">
+        <h2>3-day template</h2>
+        <ul class="list">
+          <li><strong>Day 1:</strong> arrive + best viewpoint + dinner</li>
+          <li><strong>Day 2:</strong> main activity + café + photos</li>
+          <li><strong>Day 3:</strong> slow morning + market + leave</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h2>Pack list</h2>
+        <ul class="list">
+          <li><strong>Layers:</strong> mornings get cold</li>
+          <li><strong>Water:</strong> always</li>
+          <li><strong>Camera:</strong> phone is fine</li>
+          <li><strong>One nice fit:</strong> for dinner photos</li>
+        </ul>
+        <div style="margin-top:14px;">
+          <a class="btn primary" href="contact.html">Get recommendations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container inner">
+    <div>WanderLite</div>
+    <div class="muted">© <span id="y"></span></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
